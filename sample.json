@@ -1,0 +1,569 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5e319753-4f1a-4397-af5e-0efb780ac76e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5e319753-4f1a-4397-af5e-0efb780ac76e",
+        "name": [
+          {
+            "use": "official",
+            "given": [
+              "Synthetic"
+            ],
+            "family": "Patient"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1975-01-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e020811-3ce7-44ad-85cc-38348e16e9ad",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "6e020811-3ce7-44ad-85cc-38348e16e9ad",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185347001",
+                "display": "Encounter for problem"
+              }
+            ],
+            "text": "Encounter for problem"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "period": {
+          "start": "2026-04-30",
+          "end": "2026-04-30"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "271759003",
+                "display": "Bullous eruption"
+              }
+            ],
+            "text": "bullous rash on her left arm, axilla, and lateral chest wall accompanied by subjective fever"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a750e34-a26f-41a3-aae6-4f58fb897ebd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7a750e34-a26f-41a3-aae6-4f58fb897ebd",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "271759003",
+              "display": "Bullous eruption"
+            }
+          ],
+          "text": "bullous rash on her left arm, axilla, and lateral chest wall"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "onsetDateTime": "2026-04-28",
+        "recordedDate": "2026-04-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d74b1dd6-2e22-4521-87e5-8b2d8c9b931d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d74b1dd6-2e22-4521-87e5-8b2d8c9b931d",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever"
+            }
+          ],
+          "text": "subjective fever"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "onsetDateTime": "2026-04-28",
+        "recordedDate": "2026-04-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12d9ff66-8f06-401d-aec3-208c9d12c73a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "12d9ff66-8f06-401d-aec3-208c9d12c73a",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "62315008",
+              "display": "Diarrhea"
+            }
+          ],
+          "text": "intermittent loose stools"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "onsetDateTime": "2026-04-30",
+        "recordedDate": "2026-04-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:39a133ee-c0b7-442d-a28d-534dbe1c12eb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "39a133ee-c0b7-442d-a28d-534dbe1c12eb",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ],
+            "text": "Exam"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "444827008",
+              "display": "Erythema of skin"
+            }
+          ],
+          "text": "diffuse erythema from the midchest to the axilla and upper arm"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "effectiveDateTime": "2026-04-30",
+        "valueBoolean": true,
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "51185008",
+              "display": "Thoracic structure"
+            }
+          ],
+          "text": "midchest to the axilla and upper arm"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:35d9cd22-b93a-45b6-99e9-961dd409034c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "35d9cd22-b93a-45b6-99e9-961dd409034c",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ],
+            "text": "Exam"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "65124004",
+              "display": "Swelling"
+            }
+          ],
+          "text": "swelling from the midchest to the axilla and upper arm"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "effectiveDateTime": "2026-04-30",
+        "valueBoolean": true,
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "51185008",
+              "display": "Thoracic structure"
+            }
+          ],
+          "text": "midchest to the axilla and upper arm"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:51cb51ac-01d0-46bf-a36b-be10c494aa93",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "51cb51ac-01d0-46bf-a36b-be10c494aa93",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ],
+            "text": "Exam"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428176004",
+              "display": "Blisters of multiple sites"
+            }
+          ],
+          "text": "multiple bullae, some with central dusky areas"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "effectiveDateTime": "2026-04-30",
+        "valueBoolean": true,
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "51185008",
+              "display": "Thoracic structure"
+            }
+          ],
+          "text": "midchest to the axilla and upper arm"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d1580188-8481-4d30-bfa7-189c03835ee5",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "d1580188-8481-4d30-bfa7-189c03835ee5",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "191831",
+              "display": "infliximab"
+            }
+          ],
+          "text": "infliximab"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "authoredOn": "2026-04-30",
+        "dosageInstruction": [
+          {
+            "text": "for Crohn's disease"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1dc5f282-fad3-4a87-a263-856554341a1b",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "1dc5f282-fad3-4a87-a263-856554341a1b",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "104651-5",
+              "display": "Herpes simplex virus 1 and 2 and Varicella zoster virus and T.pallidum DNA panel NAA+probe"
+            }
+          ],
+          "text": "PCR testing of a bulla for herpes simplex virus types 1 and 2 and varicella zoster virus"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "effectiveDateTime": "2026-04-30",
+        "issued": "2026-04-30T10:00:00-05:00",
+        "conclusion": "PCR testing of a bulla for herpes simplex virus types 1 and 2 and varicella zoster virus was negative"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e46155f8-322b-49af-9384-25c2ec8e011d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e46155f8-322b-49af-9384-25c2ec8e011d",
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373782009",
+              "display": "Diagnostic substance"
+            }
+          ],
+          "text": "Diagnostic procedure"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "240977001",
+              "display": "Biopsy of skin"
+            }
+          ],
+          "text": "punch biopsy"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "performedDateTime": "2026-04-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b4895df-3b15-4781-b146-84c29fd47a9f",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "9b4895df-3b15-4781-b146-84c29fd47a9f",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "187",
+              "display": "zoster recombinant"
+            }
+          ],
+          "text": "recombinant adjuvant Shingrix vaccine"
+        },
+        "patient": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "occurrenceDateTime": "2026-04-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0db1026b-c882-47c2-b821-ccbd9ab76ae2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0db1026b-c882-47c2-b821-ccbd9ab76ae2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34000006",
+              "display": "Crohn's disease"
+            }
+          ],
+          "text": "Crohn's disease"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "onsetDateTime": "2020-01-01",
+        "recordedDate": "2026-04-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:135fde9c-08f8-47b6-a93b-662c1b00b512",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "135fde9c-08f8-47b6-a93b-662c1b00b512",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39111-0",
+              "display": "Body site"
+            }
+          ],
+          "text": "Location of bullous rash on her left arm, axilla, and lateral chest wall"
+        },
+        "subject": {
+          "reference": "Patient/5e319753-4f1a-4397-af5e-0efb780ac76e"
+        },
+        "effectiveDateTime": "2026-04-30T11:24:39Z",
+        "valueString": "left arm, axilla, and lateral chest wall"
+      }
+    }
+  ]
+}
